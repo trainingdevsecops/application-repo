@@ -21,3 +21,6 @@ jobs:
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
+
+      - name: Terraform view
+        run: cat /var/log/terraform_module_usage.log
